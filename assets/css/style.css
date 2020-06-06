@@ -10,10 +10,39 @@
   color: #3e52a3;
 }
 
+.container {
+  width: 80%;
+  margin: 2rem auto;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
 body {
-  font-family: "DM Serif Display", serif;
+  font-family: "Karla", serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+main {
+  margin-top: 15rem;
+}
+main .hero {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main .hero__content {
+  margin: 0;
+}
+main .hero__content h2 {
+  font-family: "DM Serif Display";
+  font-size: 4rem;
+}
+main .hero__content--accent, main .hero__content--large {
+  margin-right: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
